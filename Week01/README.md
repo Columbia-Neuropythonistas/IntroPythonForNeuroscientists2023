@@ -6,7 +6,7 @@ Please do the rest of the preparation before the first class.
 ## Fill Out Pre-Class Survey [Form](tbd)
 Now that you've decided to take the class, we would like to get a sense of people's previous experience and what they want to get out of the class in case this is different than in the interest form we sent out last year. Form [here](tbd).
 
-## Disclaimer
+# IMPORTANT!!!
 Please make sure you read ALL of the text and do ALL the tasks below.
 ## Video Introductions to Command Line and Git
 1. [Introduction to the Command Line (5m 40s)](https://www.youtube.com/watch?v=cgVbqxtx3hU)
