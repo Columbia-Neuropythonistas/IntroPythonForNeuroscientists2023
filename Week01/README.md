@@ -1,11 +1,13 @@
 # Preparation for Class
-Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#set-up-conda) and [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#install-vscode) by [DATE TBD] so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, take a screenshot of the printed hello world, a screenshot of the conda version, and submit both to Courseworks. Please also fill out the pre-class survey form by then. If you run into any issues, you can try googling the error message, or you can email us. If you aren't able to figure it out on your own, please email [EMAIL GOES HERE]
+Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#set-up-conda) and [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#install-vscode) by Monday, 9/4/2023 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, take a screenshot of the printed hello world, a screenshot of the conda version, and submit both to Courseworks. Please also fill out the pre-class survey form by then. If you run into any issues, you can try googling the error message, or you can email us. If you aren't able to figure it out on your own, please email pfncolumbia@gmail.com
 
 Please do the rest of the preparation before the first class.
 
 ## Fill Out Pre-Class Survey [Form](tbd)
 Now that you've decided to take the class, we would like to get a sense of people's previous experience and what they want to get out of the class in case this is different than in the interest form we sent out last year. Form [here](tbd).
 
+## Disclaimer
+Please make sure you read ALL of the text and do ALL the tasks below.
 ## Video Introductions to Command Line and Git
 1. [Introduction to the Command Line (5m 40s)](https://www.youtube.com/watch?v=cgVbqxtx3hU)
 2. [Introduction to Git (Watch the first 6m 32s)](https://www.youtube.com/embed/uR6G2v_WsRA?end=392). The remainder of the video is good to watch for an introduction to how we will be using git in class, but is not necessary if you are short on time.
@@ -40,8 +42,9 @@ Now that you've decided to take the class, we would like to get a sense of peopl
 
 
 ## Install VSCode
+**Please follow the FULL tutorial!!!** 
 - Follow the instructions for your operating system (Linux, Windows, or Mac) here: https://docs.microsoft.com/en-us/learn/modules/python-install-vscode/
-- As a reminder, once you've gone through the instructions above, please take a screenshot of your printed hello world, and submit it on the courseworks.
+- Once you've gone through the instructions above, please take a screenshot of your printed hello world, and submit it on the courseworks.
 - Troubleshooting:
     - If `code .` doesn't work for you, try using the Uninstall 'code' command in the PATH command before the "Install 'code' command in PATH" command following the instructions [here](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) ([source](https://stackoverflow.com/questions/29955500/code-is-not-working-in-on-the-command-line-for-visual-studio-code-on-os-x-ma)).
     - For Linux, you can download either a .deb or a .rpm file. Which one you should use depends on your distribution, more specifically whether it is Debian- or Redhat-based. (Ubuntu, for example, is Debian-based and would need a .deb file.)
@@ -49,13 +52,16 @@ Now that you've decided to take the class, we would like to get a sense of peopl
 
 ## Make a Github Account
 - If you don't have a github account already, go [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to make one. I would recommend using an academic email because students get github pro for free, but you can always add other email addresses to your profile later. 
-- Submit your github username to this [google form](tbd).
+- Submit your github username to this [google form](tbd2).
 
 ## Set up your Github SSH Keys 
 TODO: Sam
 
 ## Making your first Conda Environment
-Open up your preferred command line interface (e.g. Terminal for Mac, AnacondaPrompt for Windows, konsole for Ubuntu, etc). Make sure that conda is active. Depending on your install settings, you may have to manually activate conda using the command `conda activate`. 
+Open up your preferred command line interface (e.g. Terminal for Mac, AnacondaPrompt for Windows, konsole for Ubuntu, etc). Make sure that conda is active. Depending on your install settings, you may have to manually activate conda using the command `conda activate`. When conda is active, there should be a parentheses indicating which environment you are using preceding your input line.
+
+![image](image.png)
+
 Now, let's make our first conda environment! Type the following in your command line interface (CLI).
 ```
 conda create -n intropython python=3.10 numpy seaborn pandas scikit-learn scipy jupyterlab git
@@ -79,7 +85,7 @@ Confirm which packages your environment has by entering the following command:
 ```
 conda list 
 ```
-This command will print out all the packages that are currently installed in the currently active environment, as well as its version numbers.
+This command will print out all the packages that are currently installed in the currently active environment, as well as its version numbers. **Screenshot this and submit it to the courseworks prework assignment.**
 
 
 # Resources
