@@ -1,10 +1,13 @@
 # Preparation for Class
-Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#set-up-conda) and [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#install-vscode) by Monday, 9/4/2023 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, take a screenshot of the printed hello world, a screenshot of the conda version, and a screenshot of your conda environment package list for submission to Courseworks. Please also fill out the pre-class survey form by then. If you run into any issues, you can try googling the error message, or you can email us. If you aren't able to figure it out on your own, please email pfncolumbia@gmail.com
+Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#set-up-conda) and [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#install-vscode) by Monday, 9/4/2023 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, prepare for submission to courseworks the following: 
+- a screenshot of the conda version
+- a screenshot of the printed hello world in VS code
+- a screenshot of the terminal output from step #3 in Set Up Your Github SSH Keys
+- a screenshot of your conda environment package list
+
+If you run into any issues, you can try googling the error message, or you can email us. If you aren't able to figure it out on your own, please email pfncolumbia@gmail.com
 
 Please do the rest of the preparation before the first class.
-
-## Fill Out Pre-Class Survey [Form](tbd)
-Now that you've decided to take the class, we would like to get a sense of people's previous experience and what they want to get out of the class in case this is different than in the interest form. Form [here](tbd).
 
 # IMPORTANT!!!
 Please make sure you read ALL of the text and do ALL the tasks below.
