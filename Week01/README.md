@@ -4,7 +4,7 @@ Please try to follow the instructions to [Set Up Conda](https://github.com/Colum
 Please do the rest of the preparation before the first class.
 
 ## Fill Out Pre-Class Survey [Form](tbd)
-Now that you've decided to take the class, we would like to get a sense of people's previous experience and what they want to get out of the class in case this is different than in the interest form we sent out last year. Form [here](tbd).
+Now that you've decided to take the class, we would like to get a sense of people's previous experience and what they want to get out of the class in case this is different than in the interest form. Form [here](tbd).
 
 # IMPORTANT!!!
 Please make sure you read ALL of the text and do ALL the tasks below.
@@ -52,7 +52,7 @@ Please make sure you read ALL of the text and do ALL the tasks below.
 
 ## Make a Github Account
 - If you don't have a github account already, go [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to make one. I would recommend using an academic email because students get github pro for free, but you can always add other email addresses to your profile later. 
-- Submit your github username to this [google form](tbd2).
+- Submit your github username to this [google form](https://forms.gle/A3DPAa7r9gpPeUku5).
 
 ## Set up your Github SSH Keys 
 ### What is SSH?
