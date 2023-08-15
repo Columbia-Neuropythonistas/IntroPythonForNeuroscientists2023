@@ -55,8 +55,28 @@ Please make sure you read ALL of the text and do ALL the tasks below.
 - Submit your github username to this [google form](tbd2).
 
 ## Set up your Github SSH Keys 
-TODO: Sam
+### What is SSH?
+SSH makes sure that your local computer is allowed to have access to your Github account. To do so, you’re essentially sharing a password with Github that can be used to authenticate your identity. Except with one complication: Github has a public version of the password (the “public key”), whereas you have the private version (“private key”) as well. This ensures that someone who sees your public key would not be able to pretend to be you. You will only be authenticated if you have both the public and the private key. Importantly, Github can make sure that this is the case without ever seeing the private key.
 
+Thus, to set up an SSH connection, you need to do two things: generate your own public/private key pair and upload the private key to Github.
+
+### How to set up SSH
+1. First we’ll make sure that you don’t already have an SSH key.
+     - Open your terminal
+     - Print out ‘ls -al ~/.ssh’
+     - If you see two files with the naming pattern ‘id_<some numbers and letters>’ and ‘id_<the same numbers and letters>.pub’, you already have an SSH key. Skip to step 3. If you don’t or you get an error that the folder does not exist, continue with step 2.
+2. We’ll generate a public/private key pair:
+     - Run ‘ssh-keygen -t ed25519 -C "your_email@example.com"’ in the terminal, where you enter your own email address.
+3. Add the SSH key to the Github account
+     - Go back to step 1 to figure out the name of your public/private key pair. Most likely it will be ‘id_ed25519’. The file with the ending ‘pub’ is the public key.
+     - Print it out using ‘cat’: ‘cat ~/.ssh/id_ed25519.pub’ (or with some other name if your key has a different name.
+     - Select everything that was printed out and copy it to your clipboard.
+     - In the upper-right corner of Github, click your profile photo, then click Settings.
+     - In the "Access" section of the sidebar, click SSH and GPG keys.
+     - Click New SSH key or Add SSH key.
+     - Add a title that describes the laptop you’re currently using (e.g. “My Laptop”)
+     - In the "Key" field, paste your public key.
+     - Click Add SSH key.
 
 - Please take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
 ## Making your first Conda Environment
