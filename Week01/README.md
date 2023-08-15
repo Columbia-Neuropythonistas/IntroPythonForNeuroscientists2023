@@ -57,6 +57,8 @@ Please make sure you read ALL of the text and do ALL the tasks below.
 ## Set up your Github SSH Keys 
 TODO: Sam
 
+
+- Please take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
 ## Making your first Conda Environment
 Open up your preferred command line interface (e.g. Terminal for Mac, AnacondaPrompt for Windows, konsole for Ubuntu, etc). Make sure that conda is active. Depending on your install settings, you may have to manually activate conda using the command `conda activate`. When conda is active, there should be a parentheses indicating which environment you are using preceding your input line.
 
