@@ -1,5 +1,5 @@
 # Preparation for Class
-Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#set-up-conda) and [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#install-vscode) by Monday, 9/4/2023 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up, prepare for submission to courseworks the following: 
+Please try to follow the instructions to [Set Up Conda](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#set-up-conda) and [Install VSCode](https://github.com/Columbia-Neuropythonistas/IntroPythonForNeuroscientists2022/blob/main/Week01_SetUpEnvAndHelloWorld/README.md#install-vscode) by Monday, 9/4/2023 so that we have time to troubleshoot and everyone can start on the same page. Once you've set everything up,** prepare for submission to courseworks the following: **
 - a screenshot of the conda version
 - a screenshot of the printed hello world in VS code
 - a screenshot of the terminal output from step #3 in Set Up Your Github SSH Keys
