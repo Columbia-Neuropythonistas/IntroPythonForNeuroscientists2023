@@ -52,36 +52,6 @@ Please make sure you read ALL of the text and do ALL the tasks below.
     - If `code .` doesn't work for you, try using the Uninstall 'code' command in the PATH command before the "Install 'code' command in PATH" command following the instructions [here](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) ([source](https://stackoverflow.com/questions/29955500/code-is-not-working-in-on-the-command-line-for-visual-studio-code-on-os-x-ma)).
     - For Linux, you can download either a .deb or a .rpm file. Which one you should use depends on your distribution, more specifically whether it is Debian- or Redhat-based. (Ubuntu, for example, is Debian-based and would need a .deb file.)
 
-
-## Make a Github Account
-- If you don't have a github account already, go [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to make one. I would recommend using an academic email because students get github pro for free, but you can always add other email addresses to your profile later. 
-- Submit your github username to this [google form](https://forms.gle/A3DPAa7r9gpPeUku5).
-
-## Set up your Github SSH Keys 
-### What is SSH?
-SSH makes sure that your local computer is allowed to have access to your Github account. To do so, you’re essentially sharing a password with Github that can be used to authenticate your identity. Except with one complication: Github has a public version of the password (the “public key”), whereas you have the private version (“private key”) as well. This ensures that someone who sees your public key would not be able to pretend to be you. You will only be authenticated if you have both the public and the private key. Importantly, Github can make sure that this is the case without ever seeing the private key.
-
-Thus, to set up an SSH connection, you need to do two things: generate your own public/private key pair and upload the private key to Github.
-
-### How to set up SSH
-1. First we’ll make sure that you don’t already have an SSH key.
-     - Open your terminal
-     - Print out ‘ls -al ~/.ssh’
-     - If you see two files with the naming pattern ‘id_<some numbers and letters>’ and ‘id_<the same numbers and letters>.pub’, you already have an SSH key. Skip to step 3. If you don’t or you get an error that the folder does not exist, continue with step 2.
-2. We’ll generate a public/private key pair:
-     - Run ‘ssh-keygen -t ed25519 -C "your_email@example.com"’ in the terminal, where you enter your own email address.
-3. Add the SSH key to the Github account
-     - Go back to step 1 to figure out the name of your public/private key pair. Most likely it will be ‘id_ed25519’. The file with the ending ‘pub’ is the public key.
-     - Print it out using ‘cat’: ‘cat ~/.ssh/id_ed25519.pub’ (or with some other name if your key has a different name.
-     - Select everything that was printed out and copy it to your clipboard.
-     - In the upper-right corner of Github, click your profile photo, then click Settings.
-     - In the "Access" section of the sidebar, click SSH and GPG keys.
-     - Click New SSH key or Add SSH key.
-     - Add a title that describes the laptop you’re currently using (e.g. “My Laptop”)
-     - In the "Key" field, paste your public key.
-     - Click Add SSH key.
-
-- Please take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
 ## Making your first Conda Environment
 Open up your preferred command line interface (e.g. Terminal for Mac, AnacondaPrompt for Windows, konsole for Ubuntu, etc). Make sure that conda is active. Depending on your install settings, you may have to manually activate conda using the command `conda activate`. When conda is active, there should be a parentheses indicating which environment you are using preceding your input line.
 
@@ -113,6 +83,57 @@ conda list
 This command will print out all the packages that are currently installed in the currently active environment, as well as its version numbers. **Screenshot this and submit it to the courseworks prework assignment.**
 
 
+
+## Make a Github Account
+- If you don't have a github account already, go [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) to make one. I would recommend using an academic email because students get github pro for free, but you can always add other email addresses to your profile later. 
+- Submit your github username to this [google form](https://forms.gle/A3DPAa7r9gpPeUku5).
+
+## Set up your Github SSH Keys 
+### What is SSH?
+SSH makes sure that your local computer is allowed to have access to your Github account. To do so, you’re essentially sharing a password with Github that can be used to authenticate your identity. Except with one complication: Github has a public version of the password (the “public key”), whereas you have the private version (“private key”) as well. This ensures that someone who sees your public key would not be able to pretend to be you. You will only be authenticated if you have both the public and the private key. Importantly, Github can make sure that this is the case without ever seeing the private key.
+
+Thus, to set up an SSH connection, you need to do two things: generate your own public/private key pair and upload the private key to Github.
+
+### How to set up SSH
+#### Step 1. Check existing SSH keys. 
+First we’ll make sure that you don’t already have an SSH key. Open your terminal (for Windows users, please use git bash) and enter into the command line:
+```
+ls -al ~/.ssh
+```
+If you see two files with the naming pattern ```id_<some numbers and letters>``` and ```id_<the same numbers and letters>.pub```, you already have an SSH key. Skip to step 3. If you don’t or you get an error that the folder does not exist, continue with step 2.
+#### Step 2. Generate a public/private key pair:
+Enter in the terminal:
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+where you enter your own email address.
+#### Step 3. Add the SSH key to the Github account
+Go back to step 1 to figure out the name of your public/private key pair. Most likely, it will be ```id_ed25519```. The file with the ending ‘pub’ is the public key.
+
+Print out the public key by entering the following command in terminal: 
+
+```
+cat ~/.ssh/id_ed25519.pub
+```
+(or with some other name if your key has a different name).
+
+Next, select everything that was printed out and copy it to your clipboard.
+
+Open up Github in your browser. In the upper-right corner of Github, click your profile photo, then click Settings.
+
+In the "Access" section of the sidebar, click SSH and GPG keys.
+
+Click New SSH key or Add SSH key.
+
+Add a title that describes the laptop you’re currently using (e.g. “My Laptop”)
+
+In the "Key" field, paste your public key.
+
+Click Add SSH key.
+
+Please take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
+
+ 
 # Resources
 - [Setting up Git SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
