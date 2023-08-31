@@ -106,7 +106,19 @@ Enter in the terminal:
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-where you enter your own email address.
+where you enter your own email address. 
+
+When you are prompted to "Enter a file in which to save the key," press Enter to accept the default file location. 
+```
+> Enter a file in which to save the key (/Users/YOU/.ssh/id_ed25519_sk): [Press enter]
+```
+When you are prompted to type a passphrase, press Enter if you do not want to generate a passphrase.
+
+```
+> Enter passphrase (empty for no passphrase): [Type a passphrase]
+> Enter same passphrase again: [Type passphrase again]
+```
+Congrats! Now you've generated your SSH key. 
 #### Step 3. Add the SSH key to the Github account
 Go back to step 1 to figure out the name of your public/private key pair. Most likely, it will be ```id_ed25519```. The file with the ending ‘pub’ is the public key.
 
@@ -119,17 +131,9 @@ cat ~/.ssh/id_ed25519.pub
 
 Next, select everything that was printed out and copy it to your clipboard.
 
-Open up Github in your browser. In the upper-right corner of Github, click your profile photo, then click Settings.
+Open up Github in your browser. In the upper-right corner of Github, click your profile photo, then click Settings. In the "Access" section of the sidebar, click SSH and GPG keys. Then, click New SSH key or Add SSH key.
 
-In the "Access" section of the sidebar, click SSH and GPG keys.
-
-Click New SSH key or Add SSH key.
-
-Add a title that describes the laptop you’re currently using (e.g. “My Laptop”)
-
-In the "Key" field, paste your public key.
-
-Click Add SSH key.
+Add a title that describes the laptop you’re currently using (e.g. “My Laptop”). In the "Key" field, paste your public key. Click Add SSH key.
 
 Please take a screenshot of your terminal output showing what is expected from step 3 of the instructions and submit it to the assignment on courseworks.
 
