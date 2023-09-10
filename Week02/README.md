@@ -1,4 +1,7 @@
 # Week 2 -- Intro to Python Part 1
+## Optional Video on Conda environments and Jupyter Notebook Intro
+
+[Video linked here](https://www.youtube.com/watch?v=LCOINLVBVmM)
 
 ## Pre-Work
 Like last week, if you run into issues please contact us before class. Please upload a screenshot of the problem you are running into to the relevant assignment on courseworks so we can help you debug.
