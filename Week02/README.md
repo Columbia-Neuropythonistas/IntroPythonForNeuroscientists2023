@@ -20,7 +20,7 @@ i. markdown cell
 
       import numpy
 
-3. Save notebook as “helloworld.ipynb”. Take a screen shot of the notebook after executing all the cells and include in your Week02 coursework assignment for extra credit.
+3. Take a screenshot of the notebook after executing all the cells, showing that there are no output errors and that you have the correct environment kernel selected. **Include in your Week02 coursework assignment for extra credit.**
 
 
 
