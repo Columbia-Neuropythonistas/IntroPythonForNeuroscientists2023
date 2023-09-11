@@ -2,6 +2,27 @@
 ## Optional Video on Conda environments and Jupyter Notebook Intro
 
 [Video linked here](https://www.youtube.com/watch?v=LCOINLVBVmM)
+### Optional extra credit work:
+1. Create and run a jupyter notebook, ensuring you have selected the “intropython” environment kernel
+
+2. Create and run 3 cells, making sure none of them output errors:
+
+i. markdown cell
+```
+# hello world
+```
+
+  ii. code cell 
+
+      print(‘hello world’)
+
+  iii. code cell 
+
+      import numpy
+
+3. Save notebook as “helloworld.ipynb”. Take a screen shot of the notebook after executing all the cells and include in your coursework assignment for extra credit.
+
+
 
 ## Pre-Work
 Like last week, if you run into issues please contact us before class. Please upload a screenshot of the problem you are running into to the relevant assignment on courseworks so we can help you debug.
