@@ -53,7 +53,7 @@ Schedule (subject to change):
   </tr>
   <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Week 4 (9/28)</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Numerical data with Numpy</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Why use numpy?</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Create and manipulate numpy arrays</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Python Basics: </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- For Loops </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- List Comprehension </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Enumerate </span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Renata</span></td>
     <td class="tg-0pky"></td>
   </tr>
