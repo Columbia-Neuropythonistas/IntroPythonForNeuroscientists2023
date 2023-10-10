@@ -47,7 +47,7 @@ Schedule (subject to change):
   </tr>
   <tr>
     <td class="tg-0pky">Week 3<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> (9/21)</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Python Basics 2:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- For Loops</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- input / output</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Control flow (while, break/continue, try/except)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Functions</span></td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Python Basics:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Lists </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">- Dictionaries</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Renata</span></td>
     <td class="tg-0pky"></td>
   </tr>
